@@ -2,10 +2,10 @@ package com.funny;
 
 import java.util.HashMap;
 
-public class TwoNumberSum {
+public class TwoSum {
 
     public static void main(String[] args) {
-        int[] result = new TwoNumberSum().twoSum(new int[]{1, 4, 8, 12}, 9);
+        int[] result = new TwoSum().twoSum(new int[]{1, 4, 8, 12}, 9);
         System.out.println(result[0] + "," + result[1]);
     }
 
